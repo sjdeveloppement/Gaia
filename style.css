@@ -1,0 +1,21 @@
+body{
+    background-color: #000;}
+
+.container-card{
+    background-color: #333333;
+    margin-top: 40px;
+    
+}
+.navbar-toggler{
+    color: aquamarine;   
+}
+li{
+    list-style: none;
+    
+}
+ul{
+    margin-left: -15px;
+}
+i{
+    color: aquamarine;
+}
