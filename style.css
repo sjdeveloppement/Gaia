@@ -1,13 +1,19 @@
 body{
-    background-color: #000;}
+    background-color: #000;
+    font-family: 'Lato', sans-serif;}
 
 .container-card{
     background-color: #333333;
-    margin-top: 40px;
+    margin-top: 60px;
     
 }
+
 .navbar-toggler{
-    color: aquamarine;   
+    color: aquamarine; 
+     
+}
+.bg-light{
+    background-color: #7fffd4 !important;
 }
 li{
     list-style: none;
@@ -15,7 +21,87 @@ li{
 }
 ul{
     margin-left: -15px;
+    margin-top: 15px;
+    height: 100%;
+    
 }
 i{
-    color: aquamarine;
+    color: #7fffd4;
+}
+.left-menu-btn{
+    height: 100%;
+    display: flex;
+}
+.left-menu-sidebar-list{
+    flex-direction: column;
+}
+.flex-menu-avatar{
+    display: inline-flex;
+    justify-content: space-around;
+}
+.person{
+    width: 100%;
+    position: relative;
+    margin-left: 5%;
+    
+}
+.person_avatar{
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+}
+img{
+   max-width: 600px;
+   position: absolute;
+   z-index: 1;
+   left: 10px;
+   top: -80px;
+   box-shadow: 1px 1px 1px 0px black;
+}
+.person_info{
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    left: 100px;
+    bottom: -200px;
+    
+}
+.person_name{
+    color: whitesmoke;
+}
+.person_status{
+    color: #7fffd4;
+    font-size: 16px;
+}
+.person_socials_list{
+    display: flex;
+    justify-content: space-between;
+}
+.site-content-page-about{
+    color: whitesmoke;
+    margin: 40px 0;
+    font-size: 16px;
+    padding: 0 5px 0 35px;
+}
+h2{color: whitesmoke;
+padding: 10px;}
+.services-list{
+    flex-wrap: wrap;
+    display: flex;
+    padding: 10px
+}
+.service-name{
+    color: whitesmoke;
+}
+.service-description{
+    color: grey;
+}
+.services-item{
+    width: 50%;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
